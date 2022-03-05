@@ -10,7 +10,7 @@ pipeline {
             }
         }
         
-        stage('Dependencies Installation') {
+        stage('Dependencies Installation..') {
             agent {
                 label "windows-worker"
             }
